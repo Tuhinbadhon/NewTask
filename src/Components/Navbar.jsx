@@ -9,16 +9,16 @@ import "./Navbar.css";
 const Navbar = ({ show }) => {
   return (
     <div
-      className={`sidenav min-h-screen overflow-y-auto   md:mt-[90px] mt-16 fixed  z-20 md:z-auto transform shadow-lg ${
+      className={`sidenav  bg-white max-[450px]:opacity-90 min-h-screen overflow-y-auto   md:mt-[90px] mt-[86px] fixed  z-20 md:z-auto transform shadow-lg ${
         show ? "active" : " "
       }   `}
       // {`w-64 min-h-screen font-semibold bg-[#404345] text-white fixed lg:relative z-10 lg:z-auto transform ${
       //     isSidebarOpen ? "translate-x-0" : "-translate-x-full"
       //   } lg:translate-x-0 transition-transform duration-200 ease-in-out`}
     >
-      <ul className=" min-h-screen menu   menu-sm  mt-2 z-[10] p-2 shadow ">
+      <ul className=" min-h-screen menu pt-5   menu-sm  z-[10]  shadow ">
         <li>
-          <a className="flex flex-col justify-center items-center">
+          <a className="flex flex-col  justify-center items-center">
             <SiHomeassistantcommunitystore className="text-4xl mb-2 " />
             Dashboards
           </a>

@@ -1,6 +1,5 @@
 .sidenav {
   width: 120px;
-  background: white;
 
   left: -100%;
   transition: all 800ms;
@@ -20,7 +19,7 @@ ul li a {
   font-size: 16px;
   text-decoration: none;
   display: block;
-  padding: 20px;
+
   border-radius: 6px;
   border-left: 6px solid transparent;
   transition: color 0.3s, border-color 0.3s;

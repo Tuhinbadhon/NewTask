@@ -19,12 +19,12 @@ function App() {
 
   return (
     <div className="absolute">
-      <header className=" navbar   fixed z-10 bg-opacity-80 max-w-screen-xl mx-auto   bg-white md:py-7 py-3 md:px-10 shadow-lg flex justify-between items-center">
-        <div className="  max-[450px] ml-4 flex gap-10 items-center">
+      <header className=" navbar   fixed z-10 bg-opacity-80 max-w-screen-xl mx-auto   bg-white md:py-7 py-6 md:px-8  shadow-lg flex justify-between items-center">
+        <div className="  max-[450px]:ml-10 flex gap-1 ml-4 md:gap-10 items-center">
           <div className="text-3xl text-[#8e8d8d]">
             <RxHamburgerMenu className="cursor-pointer" onClick={toggleNav} />
           </div>
-          <div className="relative max-[450px] ml-4 flex gap-1 items-center">
+          <div className="relative max-[450px]:ml-0 ml-4 flex gap-1 items-center">
             <input
               type="text"
               placeholder="Search"
